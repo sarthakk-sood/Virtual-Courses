@@ -350,7 +350,7 @@ function ViewCourse() {
               You must enroll in this course to leave a review.
             </p>
           )}
-          <div className="flex items-center gap-4 pt-4 border-t -mb-3.5">
+          <div className="flex items-center gap-4 pt-8 border-t">
             {creatorData?.photoUrl ? (
               <img
                 src={creatorData?.photoUrl}
