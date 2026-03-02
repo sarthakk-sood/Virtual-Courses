@@ -30,7 +30,10 @@ function App() {
   getCreatorCourse();
   getPublishedCourse();
   getAllReviews();
-  const { userData } = useSelector((state) => state.user);
+  const { userData, isLoading } = useSelector((state) => state.user);
+
+  if (isLoading) return null;
+
   return (
     <>
       <ToastContainer />

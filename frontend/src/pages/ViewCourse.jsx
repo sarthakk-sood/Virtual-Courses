@@ -47,6 +47,8 @@ function ViewCourse() {
   useEffect(() => {
     const handleCreator = async () => {
       if (selectedCourse?.creator) {
+        setCreatorData(null);
+        setCreatorCourses(null);
         try {
           const result = await axios.post(
             serverUrl + "/api/course/creator",
