@@ -40,9 +40,8 @@ function App() {
           Please wait while the website loads...
         </h2>
         <p className="text-gray-400 text-sm max-w-xs">
-          Free services take{" "}
-          <span className="text-blue-400 font-medium">20–30 seconds</span> for a
-          cold start. Thank you for your patience!😊
+          It may take <span className="text-white  font-medium">15–20 </span>
+          seconds.
         </p>
       </div>
     );
